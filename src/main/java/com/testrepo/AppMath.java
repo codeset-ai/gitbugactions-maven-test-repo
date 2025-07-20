@@ -25,7 +25,7 @@ public class AppMath {
     }
 
     public int square(int a) {
-	return a * a * a;
+	return a * a;
     }
 
     public int cubic(int a) {
