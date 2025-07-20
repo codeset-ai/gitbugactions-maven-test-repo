@@ -41,4 +41,12 @@ public class AppTest
     public void testSubtractTwice() {
         assertEquals(2, new AppMath().subtractTwice(6, 2));
     }
+
+    public void testSquare() {
+	assertEquals(4, new AppMath().square(2));
+    }
+
+    public void testCubic() {
+	assertEquals(8, new AppMath().cubic(2));	
+    }
 }

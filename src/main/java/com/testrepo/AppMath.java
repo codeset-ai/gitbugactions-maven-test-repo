@@ -23,4 +23,12 @@ public class AppMath {
     public int subtractTwice(int a, int b) {
         return a - b - b;
     }
+
+    public int square(int a) {
+	return a * a * a;
+    }
+
+    public int cubic(int a) {
+	return a * a;
+    }
 }
