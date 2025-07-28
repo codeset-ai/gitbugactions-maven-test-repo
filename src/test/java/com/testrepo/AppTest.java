@@ -49,4 +49,12 @@ public class AppTest
     public void testCubic() {
 	assertEquals(8, new AppMath().cubic(2));	
     }
+
+    public void testSumOfSquares() {
+	assertEquals(5, new AppMath().sumOfSquares(2, 1));
+    }
+
+    public void testSumOfCubics() {
+	assertEquals(9, new AppMath().sumOfCubics(2, 1));
+    }
 }

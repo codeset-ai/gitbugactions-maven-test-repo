@@ -31,4 +31,12 @@ public class AppMath {
     public int cubic(int a) {
 	return a * a * a;
     }
+
+    public int sumOfSquares(int a, int b) {
+        return a * a + b * b;
+    }
+
+    public int sumOfCubics(int a, int b) {
+        return a * a * a + b * b * b;
+    }
 }
