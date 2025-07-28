@@ -29,6 +29,6 @@ public class AppMath {
     }
 
     public int cubic(int a) {
-	return a * a;
+	return a * a * a;
     }
 }
